@@ -8,7 +8,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class PetClinicApplication extends SpringBootServletInitializer {
 
-    private final static Integer sonar_issue = OL;
+    private final static Long sonar_issue = OL;
 
 	public static void main(String[] args) {
 		SpringApplication.run(PetClinicApplication.class, args);
